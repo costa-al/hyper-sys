@@ -1,0 +1,191 @@
+Hello world3212345678910---------------- MEMORY STATISTICS ---------------
+Unfreed memory:
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <10>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <9>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <8>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <7>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <6>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <5>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <4>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <3>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <2>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <1>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <32>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <þþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌ0‚I>
+          640 FArray <èWY>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <þþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþ>
+           20 FArray <>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>
+           72 d:\äèñòð\astar\hypersys\hcore\hscript\hscript.h : 206 <È,G>
+            8 FArray <Recurse>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <øˆI>
+            8 FArray <Recurse>
+            2 FArray <a>
+          660 FArray <ÿÿÿÿÈŒI>
+            8 d:\äèñòð\astar\hypersys\hcore\hscript\hscript.h : 1002 <Recurse>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>
+           44 d:\äèñòð\astar\hypersys\hcore\hscript\hscript.h : 1001 <>
+            8 FArray <Recurse>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <(sI>
+           10 FArray <Testprop1>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <¸sI>
+            6 FArray <Name1>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <(vI>
+           10 FArray <Testprop1>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <hwI>
+            6 FArray <Name1>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <ÈxI>
+           12 FArray <Hello world>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <¸yI>
+         1188 FArray <ÌÌÌX|I>
+           11 FArray <HClassTest>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <˜{I>
+            3 FArray <pC>
+          660 FArray <ÿÿÿÿè`I>
+            7 FArray <onMain>
+          660 FArray <ÿÿÿÿHbI>
+            7 d:\äèñòð\astar\hypersys\hcore\hscript\hscript.h : 1002 <onMain>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>
+           44 d:\äèñòð\astar\hypersys\hcore\hscript\hscript.h : 1001 <>
+            9 FArray <frame.xs>
+          660 FArray <ÿÿÿÿ¸iI>
+          259 FArray <void onMain() {
+
+	pointer pC = new HClassTest;
+	pC->Name1 = "Hello world";
+	pC->Testprop1 = 32;
+
+	print(pC->Name1);
+	print(pC->Testprop1);
+
+
+	Recurse(0);
+
+	return;
+}
+
+void Recurse(int a) {
+	a++;
+	if(a<=10) {
+		print(a);
+		Recurse(a);
+	} mI>
+           28 d:\äèñòð\astar\hypersys\hcore\hscript\hparser.h : 407 <h,G>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ new HClassTest;
+	pC->Name1 = "Hello world";
+	pC->Testprop1 = 32;
+
+	print(pC->Name1);
+	print(pC->Testprop1);
+
+
+	Recurse(0);
+
+	return;
+}
+
+void Recurse(int a) {
+	a++;
+	if(a<=10) {
+		print(a);
+		Recurse(a);
+	}°oI>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿ>
+          156 d:\äèñòð\astar\hypersys\hcore\hscript\hscript.h : 325 <À,G>
+           32 d:\äèñòð\astar\hypersys\hcore\hvar.h : 118 <þþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþ>
+            9 FArray <frame.xs>
+           12 d:\äèñòð\astar\hypersys\hcore\hvar.h : 115 <¨TI>
+           11 FArray <HClassTest>
+           10 FArray <Testprop1>
+            6 FArray <Name1>
+          660 FArray <ÿÿÿÿXWI>
+          792 FArray <ÿÿÿÿ>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿ>
+           48 d:\äèñòð\astar\hypersys\hcore\hobject.h : 408 <à8	>
+          120 d:\äèñòð\astar\hypersys\hcore\hobject.h : 404 <P>
+            7 d:\äèñòð\astar\hypersys\hcore\hdecl.h : 27 <HClass>
+           11 d:\äèñòð\astar\hypersys\hcore\hdecl.h : 27 <HClassTest>
+           68 d:\äèñòð\astar\hypersys\hcore\hobject.h : 491 <X_I>
+            9 FArray <RAND_MAX>
+            3 FArray <PI>
+            6 FArray <SMALL>
+           12 FArray <KINDA_SMALL>
+            9 FArray <MAX_PATH>
+           11 FArray <INDEX_NONE>
+            6 FArray <false>
+            5 FArray <true>
+         1188 FArray <ÿÿÿÿ¨II>
+            5 FArray <dist>
+            8 FArray <seconds>
+            5 FArray <rand>
+            4 FArray <max>
+            4 FArray <min>
+           64 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <>
+            4 FArray <abs>
+            6 FArray <print>
+            5 FArray <quat>
+            5 FArray <vec3>
+            5 FArray <vec2>
+            6 FArray <float>
+            4 FArray <int>
+            2 FArray <(>
+            3 FArray <-u>
+            3 FArray <!u>
+            3 FArray <||>
+            3 FArray <&&>
+            3 FArray <!=>
+            3 FArray <==>
+            3 FArray <>=>
+            3 FArray <<=>
+            2 FArray <>>
+            2 FArray <<>
+            2 FArray <->
+            2 FArray <+>
+            2 FArray <|>
+            2 FArray <&>
+            2 FArray <%>
+            2 FArray </>
+            2 FArray <*>
+          792 FArray <ÿÿÿÿè:I>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþ>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþø>I>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþÈ?I>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþø I>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþÈ!I>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþ˜"I>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþh#I>
+           32 d:\äèñòð\astar\hypersys\hcore\hobject.h : 583 <þþþþþþþþ8$I>
+          792 FArray <ÿÿÿÿ>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>
+          792 FArray <ÿÿÿÿ>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <>
+            7 FArray <HEvent>
+            9 FArray <Schedule>
+           12 FArray <SetEventArg>
+           12 FArray <SetEventDef>
+            7 FArray <HClass>
+          660 FArray <ÿÿÿÿ¸I>
+           15 FArray <SetEventScript>
+           10 FArray <SetScript>
+            7 FArray <Remove>
+           18 FArray <<immediateremove>>
+          660 FArray <ÿÿÿÿ(I>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿÿÿÿÿÿÿÿÿ>
+           32 d:\äèñòð\astar\hypersys\hcore\htemplates.h : 838 <ÿÿÿÿ>
+
+End of list: 13451 Bytes still allocated
+             139 Chunks allocated
+
+Malloc calls:
+	MallocCalls     =   395
+	ReallocCalls    =    30
+	FreeCalls       =   256
+	MemAllocated    =      13451 /    13 Kb /   0 Mb
+	MemMaxAllocated =      20607 /    20 Kb /   0 Mb
+
+--------------------------------------------------

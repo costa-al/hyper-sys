@@ -1,0 +1,12 @@
+LIBRARY HPack
+EXPORTS
+	Description			@1
+	NumberClasses		@2
+	ClassDesc			@3
+	ClassDef			@4
+	ClassDefIdx			@5
+	Version				@6
+	AutoLoading			@7
+	PackInternalName	@8
+SECTIONS
+	.data READ WRITE

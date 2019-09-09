@@ -1,0 +1,175 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_SCRIPT_IDE_ACCEL ACCELERATORS DISCARDABLE 
+BEGIN
+    "O",            ID_FILE_OPENSCRIPT,     VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVESCRIPT,     VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_SCRIPT_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New script",                  ID_FILE_NEWFILE
+        MENUITEM "Open script",                 ID_FILE_OPENSCRIPT
+        MENUITEM "Save script",                 ID_FILE_SAVESCRIPT
+        MENUITEM SEPARATOR
+        MENUITEM "Quit",                        ID_FILE_QUIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Find",                        ID_EDIT_FIND
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Native functions",            ID_VIEW_NATIVEFUNCTIONS
+        MENUITEM "Script functions",            ID_VIEW_SCRIPTFUNCTIONS
+        MENUITEM SEPARATOR
+        POPUP "Debug window"
+        BEGIN
+            MENUITEM "Debug",                       ID_VIEW_DEBUGWINDOW_DEBUG
+
+            MENUITEM "Data stack",                  ID_VIEW_DEBUGWINDOW_DATASTACK
+
+            MENUITEM "Static vars",                 ID_VIEW_DEBUGWINDOW_STATICVARS
+
+            MENUITEM "Local vars",                  ID_VIEW_DEBUGWINDOW_LOCALVARS
+
+        END
+    END
+    POPUP "Build"
+    BEGIN
+        MENUITEM "Compile",                     ID_BUILD_COMPILE
+        MENUITEM "Run",                         ID_BUILD_RUN
+        MENUITEM "Run step",                    ID_BUILD_RUNSTEP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_NATIVE DIALOGEX 0, 0, 201, 201
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Native code"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,144,180,50,14
+    GROUPBOX        "Class info",IDC_STATIC,7,7,187,169
+    CONTROL         "Tree2",IDC_TREE2,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    13,18,174,151
+END
+
+IDD_DIALOG_SCRIPT DIALOG DISCARDABLE  0, 0, 186, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_NATIVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG_SCRIPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
