@@ -2,7 +2,52 @@
 
 Engine for creating applications with a plug-in system (DLL) and build-in C++ like script engine. You can create native classes in DLL and then use them in the script engine.
 
+
+## Hello World application
+
+Connect DLL to the app and run script
+
+#include <windows.h>
+#include <stdio.h>
+#include <iostream.h>
+#include <time.h>
+#include <malloc.h>
+#include <assert.h>
+#include <tchar.h>
+
+#include "HCore.h"
+
+STATIC_INIT
+
+__int64 GFreq;
+HBOOL GTimestamp = true;
+FLOAT GSecondsPerCycle = 0;
+
+HWindowsPackage Pack;
+FIPackage	*GPack = &Pack;
+
+INT main() {
+
+	GPack->Load("HPack.dll", true);
+
+	HClass *pObject = HClass::CreateClass("HClass");
+
+	pObject->SetScript(&HVar("frame.xs"));
+	pObject->ExecuteThread("onMain");
+
+	delete pObject;
+
+	GPack->Free();
+
+	GMalloc->DumpAllocs();
+
+	return 0;
+}
+```
+
 ## Script Engine example code
+
+Access to the DLL native class HClassTest from script frame.xs
 
 ```C++
 void onMain() {
