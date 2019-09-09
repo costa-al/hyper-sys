@@ -1,7 +1,6 @@
-# Hypersys Script Engine
+# Hypersys C++ like script engine
 
-C++ like syntaxis script engine with plug-in system (DLL). You can implement native classes in DLL and then use them in the script engine.
-
+Easily expand with your keywords, operations, and data types. Ability to dynamically connect libraries with native classes for later use in the script body.
 
 ## Hello World application
 
@@ -29,12 +28,13 @@ FIPackage	*GPack = &Pack;
 
 INT main() {
 
-	GPack->Load("HPack.dll", true);
+	GPack->Load("HPack.dll", true); // Connect plug-in with class HClassTest
 
+	// Create base object and load script from file
 	HClass *pObject = HClass::CreateClass("HClass");
 
 	pObject->SetScript(&HVar("frame.xs"));
-	pObject->ExecuteThread("onMain");
+	pObject->ExecuteThread("main");
 
 	delete pObject;
 
@@ -53,11 +53,11 @@ HClassTest native class implementation for Hello World example code
 ```C++
 class HClassTest : public HClass {
 public:
-	CLASS_PROTOTYPE( HClassTest )
+	CLASS_PROTOTYPE( HClassTest ) // Define class for export into script engine
 
-	FUNC_PROTOTYPE( Printf );
+	FUNC_PROTOTYPE( Printf ); // Define class method for export into script engine
 
-	PROP_PROTOTYPE( const TCHAR*,	Name1 )
+	PROP_PROTOTYPE( const TCHAR*,	Name1 ) // The same for properties
 	PROP_PROTOTYPE( INT, Testprop1 )
 
 	HClassTest()	{}
@@ -65,12 +65,15 @@ public:
 
 };
 
-FUNC_DECL( HClassTest, Printf )
+FUNC_DECL( HClassTest, Printf ) // Method implementation
 	printf((const TCHAR*)Vars[0]);
 END_FUNC
 
 HEventDef1 EV_Printf( "Printf", "s" );
 
+//
+// Description for export
+//
 CLASS_DECLARATION( HClass, HClassTest, ECF_Pack )
 	EVENT_DECL( EV_Printf,	HClassTest::Printf )
 PROPERTIES( HClassTest )
@@ -84,31 +87,33 @@ END_CLASS
 Script implementation for own script engine. Access to native class HClassTest from script frame.xs for Hello World example code.
 
 ```C++
-void onMain() {
+void main() {
 
-	pointer pC = new HClassTest;
-	pC->Name1 = "Hello world";
+	pointer pC = new HClassTest; // Create class from HPack.dll
+	pC->Name1 = "Hello world"; // Accessors
 	pC->Testprop1 = 32;
 
 	print(pC->Name1);
 	print(pC->Testprop1);
 
-	print("My value = " + GetValue());
+	print("My value = " + get_value());
 
-	Recurse(0);
+	recurse(0);
 
 	return;
 }
 
-void Recurse(int a) {
+// functions example
+
+void recurse(int a) {
 	a++;
 	if(a<=10) {
 		print(a);
-		Recurse(a);
+		recurse(a);
 	}
 }
 
-float GetValue() {
+float get_value() {
 	return 0.56777777;
 }
 ```
