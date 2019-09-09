@@ -23,6 +23,5 @@ void Recurse(int a) {
 }
 
 float GetValue() {
-
 	return 0.56777777;
 }
