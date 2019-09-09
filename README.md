@@ -115,3 +115,52 @@ PROPERTIES( HClassTest )
 	PROP_DECL( Testprop1 )
 END_CLASS
 ```
+
+## Dump for frame.xs after parsing & compilation
+
+```
+@ FUNC onMain()
+p pC
+		OBJ_NEW HClassTest
+		VAR_SET pC
+		CONST Hello world
+		VAR_GET pC
+		OBJ_SET Name1
+		CONST 32
+		VAR_GET pC
+		OBJ_SET Testprop1
+		VAR_GET pC
+		OBJ_GET Name1
+		STD print
+		VAR_GET pC
+		OBJ_GET Testprop1
+		STD print
+		CONST My value = 
+		SCRIPT_CALL GetValue
+		STD +
+		STD print
+		CONST 0
+		SCRIPT_CALL Recurse
+		RET 1
+		RET 1
+@ FUNC Recurse(i)
+i a
+		VAR_GET a
+		VAR_GET a
+		CONST 1
+		STD +
+		VAR_SET a
+		VAR_GET a
+		CONST 10
+		STD <=
+		JMP_IF 5
+		VAR_GET a
+		STD print
+		VAR_GET a
+		SCRIPT_CALL Recurse
+		RET 1
+f FUNC GetValue()
+		CONST 0.567778
+		RET 0
+		RET 1
+```
