@@ -1,6 +1,6 @@
 # Hypersys C++ like script engine
 
-Easily expand with your keywords, operations, and data types. Ability to dynamically connect libraries with native classes for use in the script body.
+Simple to use script engine written from scratch. Easily expandable with keywords, operations, and data types. Ability to dynamically bind plugins with native classes for use in the script code.
 
 ## Hello World application
 
