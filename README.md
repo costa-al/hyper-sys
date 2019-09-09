@@ -1,6 +1,6 @@
 # HYPERSYS
 
-Engine for creating applications with a plug-in system (DLL) and build-in C++ like script engine. You can create native classes in DLL and then use them in the script engine.
+Engine for creating applications with a plug-in system (DLL) and built-in C++ like script engine. You can create native classes in DLL and then use them in the script engine.
 
 
 ## Hello World application
