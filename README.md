@@ -5,8 +5,9 @@ Engine for creating applications with a plug-in system (DLL) and build-in C++ li
 
 ## Hello World application
 
-Connect DLL to the app and run script
+Example application with DLL connection to the app and run script
 
+```C++
 #include <windows.h>
 #include <stdio.h>
 #include <iostream.h>
