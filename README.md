@@ -44,7 +44,7 @@ INT main() {
 }
 ```
 
-'frame.xs' example code
+## frame.xs example script
 
 Some functions examples and access to native class `HClassTest` (HPack.dll) from script for Hello World example code.
 
