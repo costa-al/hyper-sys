@@ -44,9 +44,9 @@ INT main() {
 }
 ```
 
-## Script Engine example code
+'frame.xs' example code
 
-`frame.xs` script implementation for own script engine. Access to native class `HClassTest` from script for Hello World example code.
+Some functions examples and access to native class `HClassTest` (HPack.dll) from script for Hello World example code.
 
 ```C++
 void main() { // pObject->ExecuteThread("main");
@@ -80,7 +80,7 @@ float get_value() {
 }
 ```
 
-## DLL plug-in example code
+## HPack.dll plug-in example code
 
 `HClassTest` native class implementation for Hello World example code
 
