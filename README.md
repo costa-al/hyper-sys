@@ -50,7 +50,7 @@ INT main() {
 
 HClassTest native class implementation for Hello World example code
 
-```
+```C++
 class HClassTest : public HClass {
 public:
 	CLASS_PROTOTYPE( HClassTest )
@@ -77,7 +77,6 @@ PROPERTIES( HClassTest )
 	PROP_DECL( Name1 )
 	PROP_DECL( Testprop1 )
 END_CLASS
-
 ```
 
 ## Script Engine example code
