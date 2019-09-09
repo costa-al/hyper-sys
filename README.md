@@ -4,7 +4,7 @@ Free to use a simple script engine written in C++ from scratch. Easily expandabl
 
 ## Hello World application
 
-Example application with DLL connection to the app and run script
+Example application with sample DLL `HPack.dll` connection to the app and run script `frame.xs`
 
 ```C++
 #include <windows.h>
@@ -19,28 +19,26 @@ Example application with DLL connection to the app and run script
 
 STATIC_INIT
 
-__int64 GFreq;
-HBOOL GTimestamp = true;
-FLOAT GSecondsPerCycle = 0;
-
 HWindowsPackage Pack;
 FIPackage	*GPack = &Pack;
 
 INT main() {
 
-	GPack->Load("HPack.dll", true); // Connect plug-in with class HClassTest
+	// Connect plug-in with class 'HClassTest'
+	GPack->Load("HPack.dll", true);
 
-	// Create base object and load script from file
+	// Create base object for script
 	HClass *pObject = HClass::CreateClass("HClass");
 
+	// Load & parse script
 	pObject->SetScript(&HVar("frame.xs"));
-	pObject->ExecuteThread("main"); // Call main function from frame.xs
+	
+	// Call 'main()' function from frame.xs
+	pObject->ExecuteThread("main");
 
+	// Cleaup
 	delete pObject;
-
 	GPack->Free();
-
-	GMalloc->DumpAllocs();
 
 	return 0;
 }
@@ -48,7 +46,7 @@ INT main() {
 
 ## Script Engine example code
 
-Script implementation for own script engine. Access to native class HClassTest from script ~~frame.xs~~ for Hello World example code.
+`frame.xs` script implementation for own script engine. Access to native class `HClassTest` from script for Hello World example code.
 
 ```C++
 void main() { // pObject->ExecuteThread("main");
@@ -84,7 +82,7 @@ float get_value() {
 
 ## DLL plug-in example code
 
-HClassTest native class implementation for Hello World example code
+`HClassTest` native class implementation for Hello World example code
 
 ```C++
 class HClassTest : public HClass {
@@ -93,7 +91,7 @@ public:
 
 	FUNC_PROTOTYPE( Printf ); // Define class method for export into script engine
 
-	PROP_PROTOTYPE( const TCHAR*,	Name1 ) // The same for properties
+	PROP_PROTOTYPE( const TCHAR*, Name1 ) // The same for properties
 	PROP_PROTOTYPE( INT, Testprop1 )
 
 	HClassTest()	{}
