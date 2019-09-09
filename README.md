@@ -34,7 +34,7 @@ INT main() {
 	HClass *pObject = HClass::CreateClass("HClass");
 
 	pObject->SetScript(&HVar("frame.xs"));
-	pObject->ExecuteThread("main");
+	pObject->ExecuteThread("main"); // Call main function from frame.xs
 
 	delete pObject;
 
@@ -46,7 +46,43 @@ INT main() {
 }
 ```
 
-## DLL example code
+## Script Engine example code
+
+Script implementation for own script engine. Access to native class HClassTest from script frame.xs for Hello World example code.
+
+```C++
+void main() { // pObject->ExecuteThread("main");
+
+	pointer pC = new HClassTest; // Create class from HPack.dll
+	pC->Name1 = "Hello world"; // Accessors
+	pC->Testprop1 = 32;
+
+	print(pC->Name1);
+	print(pC->Testprop1);
+
+	print("My value = " + get_value());
+
+	recurse(0);
+
+	return;
+}
+
+// functions example
+
+void recurse(int a) {
+	a++;
+	if(a<=10) {
+		print(a);
+		recurse(a);
+	}
+}
+
+float get_value() {
+	return 0.56777777;
+}
+```
+
+## DLL plug-in example code
 
 HClassTest native class implementation for Hello World example code
 
@@ -80,40 +116,4 @@ PROPERTIES( HClassTest )
 	PROP_DECL( Name1 )
 	PROP_DECL( Testprop1 )
 END_CLASS
-```
-
-## Script Engine example code
-
-Script implementation for own script engine. Access to native class HClassTest from script frame.xs for Hello World example code.
-
-```C++
-void main() {
-
-	pointer pC = new HClassTest; // Create class from HPack.dll
-	pC->Name1 = "Hello world"; // Accessors
-	pC->Testprop1 = 32;
-
-	print(pC->Name1);
-	print(pC->Testprop1);
-
-	print("My value = " + get_value());
-
-	recurse(0);
-
-	return;
-}
-
-// functions example
-
-void recurse(int a) {
-	a++;
-	if(a<=10) {
-		print(a);
-		recurse(a);
-	}
-}
-
-float get_value() {
-	return 0.56777777;
-}
 ```
