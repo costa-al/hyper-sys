@@ -48,7 +48,7 @@ INT main() {
 
 ## Script Engine example code
 
-Script implementation for own script engine. Access to native class HClassTest from script frame.xs for Hello World example code.
+Script implementation for own script engine. Access to native class HClassTest from script ~~frame.xs~~ for Hello World example code.
 
 ```C++
 void main() { // pObject->ExecuteThread("main");
